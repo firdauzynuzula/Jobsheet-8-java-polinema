@@ -20,7 +20,8 @@ public class Tugas2 {
             System.out.println("2. Tenis Meja");
             System.out.println("3. Sepakbola");
             System.out.println("4. Bola Voli");
-            System.out.print("Masukkan pilihan (1-4): ");
+            System.out.println("5. Renang");
+            System.out.print("Masukkan pilihan (1-5): ");
             int cabangOlahraga = scanner.nextInt();
             
             // Switch case lambda untuk memilih cabang olahraga
@@ -29,6 +30,7 @@ public class Tugas2 {
                 case 2 -> "Tenis Meja";
                 case 3 -> "Sepakbola";
                 case 4 -> "Bola Voli";
+                case 5 -> "Renang";
                 default -> "Pilihan tidak valid";
             };
             
